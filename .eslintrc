@@ -1,0 +1,45 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+    // "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "comma-spacing": ["error", { "before": false, "after": true }],
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": "off",
+    "no-console": "off",
+    "no-useless-escape": "off",
+    "comma-dangle": ["error", {
+        "arrays": "ignore",
+        "objects": "ignore",
+        "imports": "ignore",
+        "exports": "ignore",
+        "functions": "ignore"
+      }
+    ]
+    // "space-infix-ops": "error",
+    // "use-isnan": "warn",
+    // "valid-typeof": "error",
+    // "default-case": "warn",
+    // "camelcase": "error",
+    // "new-cap": "error",
+    // "no-empty-function": "warn",
+    // "no-redeclare": "error",
+    // "no-unused-vars": "error",
+    // "no-unused-expressions": "error",
+    // "no-trailing-spaces": "warn",
+    // "no-undefined": "error",
+    // "no-undef": "error",
+    // "no-mixed-spaces-and-tabs": ["warn", "smart-tabs"],
+    // "strict": ["error", "global"],
+    // "eqeqeq": ["error", "always"],
+  }
+}
